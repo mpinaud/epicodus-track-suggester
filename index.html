@@ -10,53 +10,70 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="logos jumbotron">
-            <img src="img/question-mark.png" alt="Php logo">
-            <img src="img/android.svg" alt="Android logo">
-            <img src="img/css.svg" alt="CSS logo">
-            <img src="img/drupal.png" alt="Drupal logo">
-            <img src="img/java.png" alt="Java logo">
-            <img src="img/php.png" alt="Php logo">
-            <img src="img/question-mark.png" alt="Php logo">
+      <div class="track-suggester">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="logos jumbotron">
+              <img src="img/question-mark.png" alt="Php logo">
+              <img src="img/android.svg" alt="Android logo">
+              <img src="img/css.svg" alt="CSS logo">
+              <img src="img/drupal.png" alt="Drupal logo">
+              <img src="img/java.png" alt="Java logo">
+              <img src="img/php.png" alt="Php logo">
+              <img src="img/question-mark.png" alt="Php logo">
+            </div>
+            <div class="jumbotron">
+              <h1 class="header-title">Track Suggester</h1>
+              <p class="header-info">Here at Epicodus we want to provide you with all the neccessary tools to guide you into your journey of the programming world. Most importantly we begin with 2 scenerios. Either you know what language you'd like to learn are ready to just dive right in. Or you are just unsure of where you see yourself but ready to dip your toes in. To help we've created This is our Track Suggester survey. This survey could help you to pinpoint exaclty which <a href="https://www.epicodus.com/portland/" target="_blank">Epicodus track</a> track will be best suited you. It's just 5 simple questions which will then provide a suggestion of which track is best suited for you.</p>
+            </div>
           </div>
-          <div class="jumbotron">
-            <h1 class="header-title">Track Suggester</h1>
-            <p class="header-info">Here at Epicodus we want to provide you with all the neccessary tools to guide you into your journey of the programming world. Most importantly we begin with 2 scenerios. Either you know what language you'd like to learn are ready to just dive right in. Or you are just unsure of where you see yourself but ready to dip your toes in. To help we've created This is our Track Suggester survey. This survey could help you to pinpoint exaclty which <a href="https://www.epicodus.com/portland/" target="_blank">Epicodus track</a> track will be best suited you. It's just 5 simple questions which will then provide a suggestion of which track is best suited for you.</p>
+          <div class="col-md-6">
+            <select class="form-control" id="reason-why">
+              <option selected>Why do you want to code?</option>
+              <option value="1">Be a professional.</option>
+              <option value="2">Build something fun.</option>
+              <option value="3">Run a start-up.</option>
+            </select>
+            <select class="form-control" id="what-type">
+              <option selected>What sort of developer do you want to be?</option>
+              <option value="1">Web</option>
+              <option value="2">Mobile</option>
+              <option value="3">Desktop Software</option>
+            </select>
+            <select class="form-control" id="interesting">
+              <option selected>What do you find more interesting?</option>
+              <option value="1">Logic of how things work.</option>
+              <option value="2">How to interact with things</option>
+            </select>
+            <select class="form-control" id="back-front">
+              <option selected>Are you interested in front or back end?</option>
+              <option value="1">Front end</option>
+              <option value="2">Back end</option>
+            </select>
+            <select class="form-control" id="important">
+              <option selected>What is more important to you?</option>
+              <option value="1">Statistical tasks.</option>
+              <option value="2">Ease of learning</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Result!</button>
+            <div class="programming-language">
+              <div class="css-design">
+                <h2>CSS/Design</h2>
+                <img src="img/css.svg" alt="CSS logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="java-android">
+                <h2>Java/Android</h2>
+                <img src="img/java.png" alt="Java logo"><img src="img/android.svg" alt="Android logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="php-drupal">
+                <h2>PHP/Drupal</h2>
+                <img src="img/php.png" alt="PHP logo"><img src="img/drupal.png" alt="Drupal logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <select class="form-control" id="reason-why">
-            <option selected>Why do you want to code?</option>
-            <option value="1">Be a professional.</option>
-            <option value="2">Build something fun.</option>
-            <option value="3">Run a start-up.</option>
-          </select>
-          <select class="form-control" id="what-type">
-            <option selected>What sort of developer do you want to be?</option>
-            <option value="1">Web</option>
-            <option value="2">Mobile</option>
-            <option value="3">Desktop Software</option>
-          </select>
-          <select class="form-control" id="interesting">
-            <option selected>What do you find more interesting?</option>
-            <option value="1">Logic of how things work.</option>
-            <option value="2">How to interact with things</option>
-          </select>
-          <select class="form-control" id="back-front">
-            <option selected>Are you interested in front or back end?</option>
-            <option value="1">Front end</option>
-            <option value="2">Back end</option>
-          </select>
-          <select class="form-control" id="important">
-            <option selected>What is more important to you?</option>
-            <option value="1">Statistical tasks.</option>
-            <option value="2">Ease of learning</option>
-          </select>
-          <button type="submit" class="btn btn-primary">Result!</button>
         </div>
       </div>
     </div>
