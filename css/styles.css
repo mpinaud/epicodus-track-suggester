@@ -2,6 +2,10 @@ body {
   margin-top: 2cm
 }
 
+.container {
+  padding: 2px 2px
+}
+
 .logos img {
   height: 60px
 }
