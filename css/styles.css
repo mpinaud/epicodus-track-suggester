@@ -10,10 +10,17 @@ body {
   height: 60px
 }
 
-.programming-language {
-  
-}
 
 .programming-language img {
   height: 30px
+}
+
+.css-design {
+  display: none
+}
+.java-android {
+  display: none
+}
+.php-drupal {
+  display: none
 }
