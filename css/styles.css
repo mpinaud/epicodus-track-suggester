@@ -2,6 +2,10 @@ body {
   margin-top: 2cm
 }
 
-div.track-suggester img {
+.logos img {
   height: 60px
+}
+
+.question img {
+  height: 30px
 }
